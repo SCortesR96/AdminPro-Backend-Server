@@ -1,0 +1,19 @@
+{
+    "name": "backend-server",
+    "version": "1.0.0",
+    "description": "Servidor BackEnd del curso de Angular Avanzado",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sergio Cortés",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.10.14"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
